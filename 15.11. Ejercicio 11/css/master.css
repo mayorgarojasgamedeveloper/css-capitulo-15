@@ -1,0 +1,39 @@
+table {
+  font-family: Arial sans-serif;
+  border: 1px #333 solid;
+  border-collapse: collapse;
+}
+th, td {
+  border: 1px #333 solid;
+  padding: 0.5em;
+}
+th {
+  font-weight: bold;
+}
+.table-header {
+  background: #F5F5F5 url("../img/fondo_gris.png") repeat-x;
+}
+table tr:nth-child(even) {
+  background-color: #FFFFCC;
+}
+/*----iconos------*/
+.euro-dolar {
+  background: #E6F3FF url("../img/euro.png") no-repeat;
+  background-position: left center;
+  padding: 0 0.5em 0 1em;
+}
+.dolar-yen {
+  background: #E6F3FF url("../img/dolar.png") no-repeat;
+  background-position: left center;
+  padding: 0 0.5em 0 1em;
+}
+.libra-dolar {
+  background: #E6F3FF url("../img/libra.png") no-repeat;
+  background-position: left center;
+  padding: 0 0.5em 0 1em;
+}
+.euro-yen {
+  background: #E6F3FF url("../img/yen.png") no-repeat;
+  background-position: left center;
+  padding: 0 0.5em 0 1em;
+}
