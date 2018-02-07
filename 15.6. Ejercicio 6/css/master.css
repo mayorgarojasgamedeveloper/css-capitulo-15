@@ -1,0 +1,12 @@
+div {
+  border: 1px grey solid;
+  height: 1.2em;
+  background-color: lightgrey;
+  padding: 0.5em;
+}
+.derecha {
+  float: right;
+}
+.izquierda {
+  float: left;
+}
